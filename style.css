@@ -1,0 +1,42 @@
+#leftButton {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#rightButton {
+  text-align: center;
+
+}
+#leftButton {
+  background-color: #EOEOEO;
+  font-size: 15px;
+  font-style: normal;
+}
+
+#rightButton {
+  background-color: #EOEOEO;
+  font-size: 15px;
+}
+
+#topButton {
+  background-color: #EOEOEO;
+  font-size: 15px;
+
+}
+
+#bottomButton {
+  background-color: #EOEOEO;
+  font-size: 15px;
+}
+
+#start {
+  background-color: EOEOEO;
+  font-size: 15px;
+}
+body {
+  font: Arial;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+
+}
