@@ -37,5 +37,10 @@
 
 .flip3D:hover >.back{
   -webkit-transform: perspective( 600px ) rotateY( 0deg );
-  transform: perspective( 600px ) rotateY( 0deg );
+}
+
+img {
+  height: 200px;
+  width: 240px;
+
 }

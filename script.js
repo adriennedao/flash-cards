@@ -2,7 +2,16 @@ $(document).ready(function (){
   console.log("jquery is connected");
 });
 
-//Target button function
+$(document).ready(function(){
+   $("button").click(function(){
+       $("p").html("National Cherry Blossom Festival, is a spring celebration in Washington, DC");
+    });
+
+
+//Target keycoard for the flash-cards
+
+
+
 //var button =$("button")
 //var handleClickEvent = function(){
 //  console.log("button")
