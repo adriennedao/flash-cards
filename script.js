@@ -3,11 +3,10 @@ $(document).ready(function (){
 });
 
 //Target button function
-var button =$("button")
-var handleClickEvent = function(){
-  console.log("button")
-}
-
+//var button =$("button")
+//var handleClickEvent = function(){
+//  console.log("button")
+//}
 //This is the event listener
-button.on("click"), handleClickEvent);
-console.log($(this))
+//button.on("click"), handleClickEvent);
+//console.log($(this))
