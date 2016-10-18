@@ -1,4 +1,8 @@
 
+.oblique {
+  font-style: oblique;
+}
+
 .flip3D {
   width:240px;
   height:200px;
@@ -13,6 +17,9 @@
   width:240px;
   height:200px;
   border-radius:7px;
+  font-style: oblique;
+  font-size: 15px;
+  color: blue;
   backface-visibility: hidden;
   transition: -webkit-transform .5s linear 0s;
   transition: transform .5s linear 0s;
