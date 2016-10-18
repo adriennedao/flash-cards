@@ -1,3 +1,12 @@
+#arrow {
+  width: 10px;
+  border: 10px solid white;
+  border-bottom-color: blue;
+  background-image: url('images/arrows-1.png');
+  background-position: -40px 0;
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
 
 .oblique {
   font-style: oblique;
