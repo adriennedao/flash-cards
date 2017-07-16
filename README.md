@@ -1,8 +1,16 @@
-FLASH-CARDS USER STORY:
+FLASH-CARDS
 
-To have a user be able to view the front of the cards and flip to the other side. The information provided on the front, would reveal pictures of what is it in the back of the cards. 
+A flash-card app for GA WDI Project 1
 
-   
+Goal:
 
+- Basic flash-card functionality is to have the user flip a card (front or back).
+- User will be prompt to  enter basic information.
+- Information is displayed on the front of the card and picture on the back.
+- Random quiz at the bottom by clicking the button.
 
-    
+Technologies Used:
+
+- The app was built using HTML5, CSS3, JavaScript
+
+Future Improvement: . Add more features and functionality.

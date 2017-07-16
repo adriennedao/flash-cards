@@ -1,74 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="animate.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="http://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>FLASH-CARD</title>
 </head>
 
-    <body>
-
-       <div class="flip3D">
-       <div class="back">Box 1 - Back <img src="http://i.imgur.com/i2PYLFq.jpg"></div>
-       <div class="front">Box 1 - Front <p>Ingredients: Papaya, chilli peppers, lemon, shrimp paste, sugar, lemon, cherry tomatoes, fish sauce, peanut</p><img src="images/arrows-1.png" class="arrow"></div>
-
-
+<body>
+  <center>
+    <strong><h1>WELCOME TO FLASHCARD!</h1></strong>
+    <hr>
+    <div>
+  <div class="flip-container">
+    <div id="card" class="flipper">
+      <div class="front">
+        <p><strong>Where is Le Mont Saint-Michel?</strong></p>
       </div>
-
-      <div class="flip3D">
-       <div class="back">Box 2 - Back <img src="images/spring_rolls.jpg"></div>
-       <div class="front">Box 2  - Front <p>Ingredients: Pork belly, vermicelli noodle, carrots, cilantro, mints, rice paper and sweet/sour fish sauce. </p></div>
+      <div class="back"><img src="http://i.imgur.com/ZuC5Jq3.jpg"></div>
+      <strong><p>Normandy, France</p></strong>
       </div>
-
-     <div class="flip3D">
-       <div class="back">Box 3 - Back <img src="images/pho_noodle.jpg"></div>
-       <div class="front">Box 3 - Front <p>Ingredients: Oxtail bone, beef shank, pho spice, rock sugar, meatballs, fish sauce, roasted yellow onion, ginger,rice noodle, bean sprout, basil, lemon, hoisen sauce, and shiracha. </div>
     </div>
-
-    <div class="flip3D">
-      <div class="back">Box 4 - Back <img src="http://i.imgur.com/jT3lnHn.jpg"></div>
-      <div class="front">Box 4 - Front <p></div>
-
-   </div>
-     <div class="flip3D">
-     <div class="back">Box 5 - Back <img src="http://i.imgur.com/RYkwaTY.jpg"></div>
-     <div class="front">Box 5- Front</div>
   </div>
-
-  <div class="flip3D">
-   <div class="back">Box 6 - Back <img src="http://i.imgur.com/Un4fKe4.jpg"></div>
-   <div class="front">Box 6  - Front </div>
 </div>
-
-  <div class="flip3D">
-   <div class="back">Box 7 - Back <img src="http://i.imgur.com/iAD317J.jpg"></div>
-   <div class="front">Box 7  - Front </div>
-</div>
-
-  <div class="flip3D">
-   <div class="back">Box 8 - Back <img src="http://i.imgur.com/2QEyXyF.jpg"></div>
-   <div class="front">Box 8  - Front </div>
-</div>
-
-  <div class="flip3D">
-   <div class="back">Box 9 - Back <img src="http://i.imgur.com/0cvYklH.jpg"></div>
-   <div class="front">Box 9 - Front </div>
-</div>
-
-
-  <div class="flip3D">
-   <div class="back">Box 10 - Back <img src="http://i.imgur.com/6okIHmY.jpg"></div>
-   <div class="front">Box 10  - Front </div>
-</div>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
-  <script src="script.js"></script>
+<br>
+  <p id="quiz"></p>
+  <button onclick="myFunction()">Reveal</button>
+  </center>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
