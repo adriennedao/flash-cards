@@ -3,11 +3,8 @@ var question = prompt("Welcome, enter your name!");
 var userAnswer = "name";
 console.log(name);
 
-var instruction = prompt("You may begin by clicking on the card");
-var userResponse = "click ok";
-
 function myFunction() {
-    document.getElementById("quiz").innerHTML = "Le Mont-Saint-Michel is an island commune in Normandy, France. It is located about one kilometre off the country's northwestern coast, at the mouth of the Couesnon River near Avranches and is 100 hectares in size.";
+    document.getElementById("quiz").innerHTML = "Le Mont-Saint-Michel is an island commune in Normandy, France.";
 }
 //method returns the element that has the ID attribute with the specified value.
 var card = document.getElementById('card');
