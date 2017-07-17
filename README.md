@@ -1,8 +1,8 @@
-FLASH-CARDS
+#FLASH-CARDS
 
-A flash-card app for GA WDI Project 1
+#A flash-card app for GA WDI Project 1
 
-Goal:
+#Goal:
 
 - Basic flash-card functionality is to have the user flip a card (front or back).
 - User will be prompt to  enter basic information.
@@ -11,6 +11,6 @@ Goal:
 
 Technologies Used:
 
-- The app was built using HTML5, CSS3, JavaScript
+- The app was built using HTML, CSS, JavaScript, Bootstrap
 
 Future Improvement: . Add more features and functionality.
