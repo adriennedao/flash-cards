@@ -1,6 +1,6 @@
 
 h1 {
-  font-family: Helvetica;
+  font-family: 'Open Sans' sans-serif;
   font-weight: 100;
   margin:center;
   color: red;
@@ -21,7 +21,7 @@ h1 {
 
 .navbar-inverse .navbar-nav > li > a {
     color: #ffffff;
-    font-family: Lato;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.7em;
     font-weight: 300;
     padding: 30px 25px 33px 25px;
@@ -45,7 +45,6 @@ p  {
   height: 100vh;
   /*width: 100vw;*/
 }
-
 .button {
     background-color: #2d97cc;
     border: none;
