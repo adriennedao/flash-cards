@@ -121,6 +121,7 @@ img {
 #footer {
   text-align: center;
   font-size: 5px;
-  color: blue;
+  color: inherit;
   font-weight: bolder;
+  font-style: italic;
 }
