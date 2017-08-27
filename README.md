@@ -28,21 +28,22 @@ DO NOT follow the instructions provided by GitHub for creating your Project Page
 Instead, try these steps:
 
 1. Create a gh-pages branch, from master:
+  - git checkout master
+  - git checkout -b gh-pages
 
-git checkout master
-git checkout -b gh-pages
 2. Initial deploy to origin (via push):
+  - git push -u origin gh-pages
 
-git push -u origin gh-pages
 3. Verify
 
-Browse to <your_github_username>.github.io/<repo_name>
+  - Browse to <your_github_username>.github.io/<repo_name>
 
-Follow-up deployments:
+ Follow-up deployments:
 
-After making further changes, deploy via push:
+ After making further changes, deploy via push:
 
-git push origin gh-pages
+- git push origin gh-pages
+
 ## Flash-Cards
 
 Pre-load your app with some data, and let the user flip through them quickly (back or front), and use the keyboard flip the card, and to mark whether they got it right or not. Track which cards were incorrect, and re-display them until the user gets them right!
