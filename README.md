@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FLASH-CARDS
 
 ## GA WDI Project 1
@@ -49,3 +50,22 @@ Instead, try these steps:
 Pre-load your app with some data, and let the user flip through them quickly (back or front), and use the keyboard flip the card, and to mark whether they got it right or not. Track which cards were incorrect, and re-display them until the user gets them right!
 
 Bonus: * Track scores over time (even if the page is reloaded) * Include images on one or both sides of the flash card * Let the user add flash cards (don't need to be saved across refreshes)
+=======
+FLASH-CARDS
+
+A flash-card app for GA WDI Project 1  
+
+Goal:
+
+  . Basic flash-card functionality is to have the user flip a card (front or back).
+  . User will be prompt to enter basic information.
+  . Information is displayed on the front of the card and picture on the back.
+  . Random quiz at the bottom by clicking the button.
+
+Technologies Used:
+
+  . The app was built using HTML5, CSS3, JavaScript
+
+Future Improvement:
+  . Add more cards, some features and functionality.
+>>>>>>> 045e8e07f65df12d63a785e8cf860afc98fec1b8
