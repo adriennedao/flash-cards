@@ -13,11 +13,6 @@ function myFunction() {
 //method returns the element that has the ID attribute with the specified value.
 var card = document.getElementById('card');
 
-    document.getElementById("quiz").innerHTML = "July 14, 1789, the storming of Bastille Day";
-}
-//method returns the element that has the ID attribute with the specified value.
-var card = document.getElementById('card');
-
 
 //function for the card
 card.addEventListener('click', function() {
